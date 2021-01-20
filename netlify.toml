@@ -1,0 +1,19 @@
+[dev]
+  command = "yarn start"
+  framework = "#custom"
+  publish = "public"
+  targetPort = 8080
+  port = 9090
+
+[[redirects]]
+  from = "/"
+  to = "/canada.html"
+  status = 301
+  force = true
+  conditions = {Country = ["CA"]}
+
+[[redirects]]
+  from = "/"
+  to = "/us.html"
+  status = 301
+  force = true
