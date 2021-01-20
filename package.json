@@ -1,0 +1,13 @@
+{
+  "name": "netlify-cli-redirect-country-condition-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "servor public"
+  },
+  "dependencies": {
+    "netlify-cli": "^3.17.1",
+    "servor": "^4.0.2"
+  }
+}

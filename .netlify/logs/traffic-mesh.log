@@ -1,0 +1,15 @@
+{"timestamp":"Apr 12 15:33:35.390","level":"INFO","fields":{"message":"edge handlers directory does not exist","directory":"edge-handlers"},"target":"traffic_mesh::bundle"}
+{"timestamp":"Apr 12 15:33:35.391","level":"INFO","fields":{"message":"starting watcher","dir":"/Users/sine.g/projects/netlify-cli-redirect-country-condition-bug-repro"},"target":"traffic_mesh::watch"}
+{"timestamp":"Apr 12 15:33:35.395","level":"INFO","fields":{"message":"server initialized","address":"0.0.0.0:9090"},"target":"traffic_mesh::server"}
+{"timestamp":"Apr 12 15:33:44.133","level":"INFO","fields":{"message":"mapped remap found","request":"scheme: http, host: localhost, path: /, query: , fragment: ","remap":"type: Redirect, status: 301, scheme: http, host: localhost, path: us.html, query: , fragment: "},"target":"traffic_mesh"}
+{"timestamp":"Apr 12 15:33:44.261","level":"WARN","fields":{"message":"/favicon.ico"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:44.262","level":"WARN","fields":{"message":"/favicon.ico.html"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:44.262","level":"WARN","fields":{"message":"/favicon.ico.htm"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:44.263","level":"WARN","fields":{"message":"/favicon.ico/index.html"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:44.264","level":"WARN","fields":{"message":"/favicon.ico/index.htm"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:47.452","level":"WARN","fields":{"message":"/favicon.ico"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:47.453","level":"WARN","fields":{"message":"/favicon.ico.html"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:47.454","level":"WARN","fields":{"message":"/favicon.ico.htm"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:47.454","level":"WARN","fields":{"message":"/favicon.ico/index.html"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:47.455","level":"WARN","fields":{"message":"/favicon.ico/index.htm"},"target":"traffic_mesh::middleware::proxy"}
+{"timestamp":"Apr 12 15:33:49.054","level":"INFO","fields":{"message":"server shutting down","with_err":false},"target":"traffic_mesh::server"}
